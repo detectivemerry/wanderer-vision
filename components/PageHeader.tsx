@@ -16,7 +16,7 @@ export default function PageHeader({
   return (
     <div className="flex flex-col mt-4 mb-20 gap-4">
       <Link href={goBackLink}>
-        <div className="flex w-auto hover:bg-gray-100 w-[5.5rem] border-2">
+        <div className="flex w-auto hover:bg-gray-100 w-[5.5rem]">
           <div className = "">
             <ChevronLeft sx={{ fontSize: "1.25rem" }} />
           </div>
