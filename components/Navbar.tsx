@@ -25,7 +25,7 @@ export default function Navbar() {
     <div className="flex justify-between gap-16 my-8 mx-8">
       <div className="w-[13%] ">
         <Link href="/">
-          <img src="logo/wanderer_vision_logo.png" />
+          <img src="/logo/wanderer_vision_logo.png" />
         </Link>
       </div>
       <div className="flex items-center gap-8 mr-16">

@@ -5,8 +5,8 @@ export default function web3() {
     <div className="flex flex-col">
       {/* <div className="text-3xl mt-4 mb-20">Hashed and Friends Web3 Game Night</div> */}
       <PageHeader
-        title="CAG Scholarship award"
-        description="This section showcases photography from the CAG Undergraduate Scholarship Ceremony, highlighting key moments from the event including award presentations, recipient portraits, and candid interactions."
+        title="Hashed and Friends Web3 Game Night"
+        description="This section captures the highlights of the Hashed and Friends Web3 Game Night, an industry networking event hosted in collaboration with leading Web3 partners including Glip, Avocado DAO, PlotX, UNOPND, and GuildFi. "
         goBackLink="/events"
       />
       <div className="flex py-3 justify-center gap-8 mx-16">
