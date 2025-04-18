@@ -1,4 +1,5 @@
 import PageHeader from "@/components/PageHeader";
+import Message from "@/app/_lib/texts";
 
 export default function web3() {
   return (
@@ -6,7 +7,7 @@ export default function web3() {
       {/* <div className="text-3xl mt-4 mb-20">Hashed and Friends Web3 Game Night</div> */}
       <PageHeader
         title="Hashed and Friends Web3 Game Night"
-        description="This section captures the highlights of the Hashed and Friends Web3 Game Night, an industry networking event hosted in collaboration with leading Web3 partners including Glip, Avocado DAO, PlotX, UNOPND, and GuildFi. "
+        description={Message.EventHashedDesc}
         goBackLink="/events"
       />
       <div className="flex py-3 justify-center gap-8 mx-16">

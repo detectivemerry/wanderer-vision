@@ -1,3 +1,4 @@
+import Message from "@/app/_lib/texts";
 import PageHeader from "@/components/PageHeader";
 
 export default function web3() {
@@ -6,7 +7,7 @@ export default function web3() {
       {/* <div className="text-3xl mt-4 mb-20">Hashed and Friends Web3 Game Night</div> */}
       <PageHeader
         title="CAG Scholarship award"
-        description="This section showcases photography from the CAG Undergraduate Scholarship Ceremony, highlighting key moments from the event including award presentations, recipient portraits, and candid interactions."
+        description={Message.EventCAG}
         goBackLink="/events"
       />
       <div className="flex py-3 justify-center gap-8 mx-16">

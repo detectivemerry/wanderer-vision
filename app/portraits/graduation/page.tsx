@@ -1,12 +1,13 @@
 import React from "react";
 import PageHeader from "@/components/PageHeader";
+import Message from "@/app/_lib/texts";
 
 export default function graudation() {
   return (
     <div>
       <PageHeader
         title="Graduation photoshoots"
-        description="This section features graduation portrait photography, capturing a milestone moment with a focus on individuality, accomplishment, and timeless presentation. Sessions include both formal and candid portraits to commemorate this significant achievement."
+        description={Message.PortraitGradDesc}
         goBackLink="/portraits"
       />
       <div className="flex py-3 justify-center gap-8 mx-16">

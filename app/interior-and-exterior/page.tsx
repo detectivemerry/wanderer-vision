@@ -1,13 +1,14 @@
 import React from "react";
 import CategoryCard from "@/components/CategoryCard";
 import PageHeader from "@/components/PageHeader";
+import Message from "../_lib/texts";
 
 export default function interiorAndExterior() {
   return (
     <div className="flex flex-col">
       <PageHeader
         title="Interior and exterior"
-        description="This section showcases photography from the CAG Undergraduate Scholarship Ceremony, highlighting key moments from the event including award presentations, recipient portraits, and candid interactions. "
+        description={Message.EventDesc}
         goBackLink="/"
       />
 
@@ -16,7 +17,7 @@ export default function interiorAndExterior() {
           <CategoryCard
             imagePath="contact/contact.png"
             title="category A"
-            description="This section captures the highlights of the Hashed and Friends Web3 Game Night, an industry networking event hosted in collaboration with leading Web3 partners including Glip, Avocado DAO, PlotX, UNOPND, and GuildFi. "
+            description={Message.EventDesc}
             link="events/web3-game-night"
           />
         </div>

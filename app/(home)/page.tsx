@@ -1,4 +1,5 @@
 import CategoryCard from "@/components/CategoryCard";
+import Message from "../_lib/texts";
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
           <CategoryCard
             imagePath="contact/contact.png"
             title="Event photography"
-            description="This section showcases photography from various events, including corporate functions, private celebrations, and public gatherings. The focus is on capturing genuine moments, key highlights, and the overall atmosphere of each occasion."
+            description={Message.EventDesc}
             link="events"
           />
         </div>
@@ -17,15 +18,15 @@ export default function Home() {
           <CategoryCard
             imagePath="contact/contact.png"
             title="Interior and Exterior Photography"
-            description="This section features photography highlighting architectural details, interior design, and exterior spaces. The focus is on capturing structure, style, and spatial atmosphere with clarity and precision."
+            description={Message.IntAndExtDesc}
             link="interior-and-exterior"
           />
         </div>
         <div className = "flex-1">
           <CategoryCard
             imagePath="contact/contact.png"
-            title="Potrait Photography"
-            description="This section features a range of portrait work, including professional headshots, graduation portraits, and other personalized sessions. Each photograph is crafted to highlight individuality, expression, and character in a refined and authentic way."
+            title="Portrait Photography"
+            description={Message.PortraitDesc}
             link="portraits"
           />
         </div>
