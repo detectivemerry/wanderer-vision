@@ -28,7 +28,7 @@ export default function Navbar() {
           <img src="logo/wanderer_vision_logo.png" />
         </Link>
       </div>
-      <div className="flex items-center gap-8">
+      <div className="flex items-center gap-8 mr-16">
         <div
           className={`${
             pathName == "/graduation" && "font-bold"

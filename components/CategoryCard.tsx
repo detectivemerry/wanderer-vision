@@ -10,18 +10,17 @@ interface CategoryCardProps {
 
 export default function CategoryCard({ imagePath, title, description, link } : CategoryCardProps) {
 
-
   return (
     <Link href = {link}>
-    <div className = "flex">
+    <div className = "flex flex-col shadow-md h-full">
         <div>
           <img src={imagePath}/>
         </div>
-        <div>
-            <div className = "font-bold">
+        <div className = "m-8 flex flex-col gap-2">
+            <div className = "font-bold text-xl">
                 {title}
             </div>
-            <div>
+            <div className = "text-gray-400">
                 {description}
             </div>
         </div>
