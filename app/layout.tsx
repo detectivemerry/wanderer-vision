@@ -18,11 +18,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </head>
       <body className={font.className}>
-        <div className = "flex justify-center m-6">
-          <img src = "logo/wanderer_vision_logo.png"/>
-        </div>
-        <div className = "m-12">
+        <div className = "m-12 border-b-2">
           <Navbar/> 
         </div>
         {children}

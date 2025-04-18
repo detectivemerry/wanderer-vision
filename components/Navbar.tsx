@@ -7,38 +7,37 @@ export default function Navbar() {
   const router = useRouter();
 
   return (
-    <div className="flex justify-center gap-16">
-      <div
-        className={`${pathName == "/" && "font-bold"} cursor-pointer`}
-        onClick={() => {
-          router.push("/");
-        }}
-      >
-        EVENTS
+    <div className="flex justify-between gap-16">
+      <div className = "w-[10%] border-2">
+        <img src="logo/wanderer_vision_logo.png" />
       </div>
-      <div
-        className={`${pathName == "/graduation" && "font-bold"} cursor-pointer`}
-        onClick={() => {
-          router.push("/graduation");
-        }}
-      >
-        GRADUATION
-      </div>
-      <div
-        className={`${pathName == "/about" && "font-bold"} cursor-pointer`}
-        onClick={() => {
-          router.push("/about");
-        }}
-      >
-        ABOUT
-      </div>
-      <div
-        className={`${pathName == "/contact" && "font-bold"} cursor-pointer`}
-        onClick={() => {
-          router.push("/contact");
-        }}
-      >
-        CONTACT
+      <div className = "flex border-2">
+        <div
+          className={`${pathName == "/" && "font-bold"} cursor-pointer`}
+          onClick={() => {
+            router.push("/");
+          }}
+        >
+          Home
+        </div>
+        <div
+          className={`${
+            pathName == "/graduation" && "font-bold"
+          } cursor-pointer`}
+          onClick={() => {
+            router.push("/graduation");
+          }}
+        >
+          Photos
+        </div>
+        <div
+          className={`${pathName == "/contact" && "font-bold"} cursor-pointer`}
+          onClick={() => {
+            router.push("/contact");
+          }}
+        >
+          CONTACT
+        </div>
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 import { Button } from "@mui/material";
 
-export default async function about() {
+export default function about() {
   return (
     <div className="flex justify-center gap-8 mx-[20%] mt-16">
       <div className="container flex-1 flex justify-center">

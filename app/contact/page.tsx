@@ -1,7 +1,4 @@
-"use client";
 import React from "react";
-import Link from "next/link";
-import { Button } from "@mui/material";
 import { Mail } from "@mui/icons-material";
 
 export default function contact() {
