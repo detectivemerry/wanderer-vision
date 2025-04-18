@@ -26,7 +26,7 @@ export default function Home() {
             imagePath="contact/contact.png"
             title="Potrait Photography"
             description="This section features a range of portrait work, including professional headshots, graduation portraits, and other personalized sessions. Each photograph is crafted to highlight individuality, expression, and character in a refined and authentic way."
-            link="potraits"
+            link="portraits"
           />
         </div>
       </div>

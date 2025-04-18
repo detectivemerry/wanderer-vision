@@ -13,8 +13,8 @@ export default function CategoryCard({ imagePath, title, description, link } : C
   return (
     <Link href = {link}>
     <div className = "flex flex-col shadow-md hover:shadow-lg h-full">
-        <div>
-          <img src={imagePath}/>
+        <div className = "flex justify-center">
+          <img src={imagePath} className = "max-h-[20rem] overflow-hidden"/>
         </div>
         <div className = "m-8 flex flex-col gap-2">
             <div className = "font-bold text-xl">

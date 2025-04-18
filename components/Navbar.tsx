@@ -13,7 +13,7 @@ export default function Navbar() {
   const handleClick = (event: React.MouseEvent<HTMLDivElement>) => {
     setAnchorEl(event.currentTarget);
     setOpenSettings((prev) => {
-      return(!prev)
+      return !prev;
     });
   };
 
@@ -36,9 +36,7 @@ export default function Navbar() {
           onClick={handleClick}
         >
           <div>Photos</div>
-          <div>
-            {openSettings ? <ExpandLess/> : <ExpandMore/>}
-          </div>
+          <div>{openSettings ? <ExpandLess /> : <ExpandMore />}</div>
           <Menu
             anchorEl={anchorEl}
             open={openSettings}
@@ -46,37 +44,28 @@ export default function Navbar() {
             anchorOrigin={{ vertical: "bottom", horizontal: "left" }}
             transformOrigin={{ vertical: "top", horizontal: "left" }}
             autoFocus={false}
-            slotProps={{ paper: { sx: { width: "10rem" } } }}
+            slotProps={{ paper: { sx: { width: "11rem" } } }}
           >
-            <MenuItem
-              onClick={() => {
-                console.log({openSettings});
-              }}
-            >
-              Events
-            </MenuItem>
-            <MenuItem
-              onClick={() => {
-                console.log("hey");
-              }}
-            >
-              Interior & Exterior
-            </MenuItem>
-            <MenuItem
-              onClick={() => {
-                console.log("hey");
-              }}
-            >
-              Potraits
-            </MenuItem>
+            <Link href="/events">
+              <MenuItem>Events</MenuItem>
+            </Link>
+            <Link href="/interior-and-exterior">
+              <MenuItem>Interior and Exterior</MenuItem>
+            </Link>
+            <Link href="portraits">
+              <MenuItem>Portraits</MenuItem>
+            </Link>
           </Menu>
         </div>
-        <Link href="/contact"></Link>
-        <div
-          className={`${pathName == "/contact" && "font-bold"} cursor-pointer`}
-        >
-          Contact
-        </div>
+        <Link href="/contact">
+          <div
+            className={`${
+              pathName == "/contact" && "font-bold"
+            } cursor-pointer`}
+          >
+            Contact
+          </div>
+        </Link>
       </div>
     </div>
   );
