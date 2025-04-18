@@ -22,10 +22,12 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body className={font.className}>
-        <div className = "mx-6">
+        <div className = "">
           <Navbar/> 
         </div>
+        <div className = "mx-20">
         {children}
+        </div>
       </body>
     </html>
   );
