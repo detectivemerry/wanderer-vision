@@ -22,13 +22,13 @@ export default function Navbar() {
   };
 
   return (
-    <div className="flex justify-between gap-16 my-8 mx-8">
-      <div className="w-[13%] ">
+    <div className="flex justify-between gap-16 my-8 lg:mx-8 mx-2 border-2">
+      <div className="lg:w-[13%] ">
         <Link href="/">
           <img src="/logo/wanderer_vision_logo.png" />
         </Link>
       </div>
-      <div className="flex items-center gap-8 mr-16">
+      <div className="flex items-center gap-8 lg:mr-16 mr-2">
         <div
           className={`${
             pathName == "/graduation" && "font-bold"
