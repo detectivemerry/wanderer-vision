@@ -14,7 +14,7 @@ export default function PageHeader({
   goBackLink,
 }: PageHeaderProps) {
   return (
-    <div className="flex flex-col mt-4 mb-20 gap-4">
+    <div className="flex flex-col mt-4 lg:mb-20 mb-4 mb-8 gap-4">
       <Link href={goBackLink}>
         <div className="flex w-auto hover:bg-gray-100 w-[5.5rem]">
           <div className = "">

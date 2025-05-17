@@ -12,7 +12,7 @@ export default function events() {
         goBackLink="/"
       />
 
-      <div className="flex gap-20 flex-wrap items-stretch">
+      <div className="flex lg:gap-20 gap-4 flex-wrap items-stretch flex-col lg:flex-row">
         <div className="flex-1">
           <CategoryCard
             imagePath="contact/contact.png"
@@ -21,7 +21,7 @@ export default function events() {
             link="events/web3-game-night"
           />
         </div>
-        <div className="flex-1">
+        <div className="flex-1 w-full">
           <CategoryCard
             imagePath="contact/contact.png"
             title="CAG Scholarship award"

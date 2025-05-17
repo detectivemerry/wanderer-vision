@@ -12,7 +12,7 @@ export default function interiorAndExterior() {
         goBackLink="/"
       />
 
-      <div className="flex gap-20 flex-wrap items-stretch">
+      <div className="flex lg:gap-20 gap-4 flex-wrap items-stretch flex-col lg:flex-row">
         <div className="flex-1">
           <CategoryCard
             imagePath="contact/contact.png"

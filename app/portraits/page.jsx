@@ -12,7 +12,7 @@ export default function portraits() {
         goBackLink="/"
       />
 
-      <div className="flex gap-20 flex-wrap items-stretch">
+      <div className="flex lg:gap-20 gap-4 flex-wrap items-stretch flex-col lg:flex-row">
         <div className="flex-1">
           <CategoryCard
             imagePath="graduation/1SN01406.jpg"

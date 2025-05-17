@@ -24,7 +24,6 @@ export default function CategoryCard({ imagePath, title, description, link } : C
                 {description}
             </div>
         </div>
-
     </div>
     </Link>
   )
