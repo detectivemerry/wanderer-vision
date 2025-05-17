@@ -22,7 +22,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="flex justify-between gap-16 my-8 lg:mx-8 mx-2 border-2">
+    <div className="flex justify-between gap-16 my-8 lg:mx-8 mx-4">
       <div className="lg:w-[13%] ">
         <Link href="/">
           <img src="/logo/wanderer_vision_logo.png" />

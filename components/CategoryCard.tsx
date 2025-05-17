@@ -16,7 +16,7 @@ export default function CategoryCard({ imagePath, title, description, link } : C
         <div className = "flex justify-center">
           <img src={imagePath} className = "max-h-[20rem] overflow-hidden"/>
         </div>
-        <div className = "m-8 flex flex-col gap-2">
+        <div className = "lg:m-8 mx-8 my-4 flex flex-col gap-2">
             <div className = "font-bold text-xl">
                 {title}
             </div>
