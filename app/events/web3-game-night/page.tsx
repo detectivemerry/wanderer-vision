@@ -11,7 +11,7 @@ export default function web3() {
         goBackLink="/events"
       />
       <div className="flex py-3 justify-center gap-8 mx-16">
-        <div className="flex flex-col gap-8">
+        <div className="flex lg:flex-col gap-8">
           <div>
             <img src="/events/left_001.jpg" />
           </div>
@@ -32,7 +32,7 @@ export default function web3() {
           </div>
         </div>
 
-        <div className="flex flex-col gap-8">
+        <div className="flex lg:flex-col gap-8">
           <div>
             <img src="/events/center_001.jpg" />
           </div>
@@ -50,7 +50,7 @@ export default function web3() {
           </div>
         </div>
 
-        <div className="flex flex-col gap-8">
+        <div className="flex lg:flex-col gap-8">
           <div>
             <img src="/events/right_001.jpg" />
           </div>
