@@ -25,7 +25,7 @@ export default function RootLayout({
         <div className = "">
           <Navbar/> 
         </div>
-        <div className = "lg:mx-20 mx-7">
+        <div className = "lg:mx-20 mx-7 mb-10">
         {children}
         </div>
       </body>
