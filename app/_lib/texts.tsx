@@ -5,6 +5,9 @@ const Message = {
     EventHashedDesc : "This section captures the highlights of the Hashed and Friends Web3 Game Night, an industry networking event hosted in collaboration with leading Web3 partners including Glip, Avocado DAO, PlotX, UNOPND, and GuildFi.",
     EventCAG : "This section showcases photography from the CAG Undergraduate Scholarship Ceremony, highlighting key moments from the event including award presentations, recipient portraits, and candid interactions. ",
     PortraitGradDesc : "This section features graduation portrait photography, capturing a milestone moment with a focus on individuality, accomplishment, and timeless presentation. Sessions include both formal and candid portraits to commemorate this significant achievement.",
+    ArchitectureDesc : "This section features architectural photography, capturing both indoor spaces like offices and outdoor scenes such as malls, highlighting design, structure, and spatial aesthetics.",
+    CorporatePortaitDesc : "This section features portrait photography, including graduate shoots and professional corporate portraits, capturing personality and purpose with a polished touch." ,
+
 }
 
 export default Message

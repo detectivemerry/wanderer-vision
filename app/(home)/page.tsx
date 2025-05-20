@@ -8,25 +8,27 @@ export default function Home() {
       <div className="flex lg:gap-20 gap-5 flex-wrap items-stretch mb-6">
         <div className = "flex-1">
           <CategoryCard
-            imagePath="contact/contact.png"
-            title="Event photography"
-            description={Message.EventDesc}
+            // imagePath="Architecture/Keong_Saik_bakery/Keong-Saik-Bakery-002.jpg"
+            // imagePath="Architecture/Delta/Delta-001.jpg"
+            imagePath="Architecture/Keong_Saik_Bakery/Keong-Saik-Bakery-002.jpg"          
+            title="Architecture"
+            description={Message.ArchitectureDesc}
             link="events"
           />
         </div>
         <div className = "flex-1">
           <CategoryCard
-            imagePath="contact/contact.png"
-            title="Interior and Exterior Photography"
-            description={Message.IntAndExtDesc}
+            imagePath="Corporate_Portraiture_Photo/Corporate_Portraits/Wong-Wei-Ling-001.jpg"
+            title="Corporate Portraiture"
+            description={Message.CorporatePortaitDesc}
             link="interior-and-exterior"
           />
         </div>
         <div className = "flex-1">
           <CategoryCard
-            imagePath="contact/contact.png"
-            title="Portrait Photography"
-            description={Message.PortraitDesc}
+            imagePath="Events/Munich_Re_Conference/Munich-Re-Conference-007.jpg"
+            title="Events Photography"
+            description={Message.EventDesc}
             link="portraits"
           />
         </div>
