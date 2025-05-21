@@ -34,7 +34,7 @@ export default function architecture() {
             imagePath="Architecture/Keong_Saik_Bakery/Keong-Saik-Bakery-001.jpg"
             title="Keong Saik Bakery"
             description={Message.Architecture_Keong_Saik_Bakery}
-            link="architecture/keong-sail-bakery"
+            link="architecture/keong-saik-bakery"
           />
         </div>
       </div>
