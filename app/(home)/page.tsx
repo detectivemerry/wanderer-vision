@@ -19,7 +19,7 @@ export default function Home() {
             imagePath="Corporate_Portraiture_Photo/Corporate_Portraits/Wong-Wei-Ling-001.jpg"
             title="Portraiture"
             description={Message.CorporatePortaitDesc}
-            link="corporate-portrait"
+            link="portraiture"
           />
         </div>
         <div className = "flex-1">
