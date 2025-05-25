@@ -19,6 +19,7 @@ const Message = {
     Events_Munich : "This section features the Munich Re Conference, capturing key speakers, networking moments, and the professional atmosphere of the event.",
     Events_OMI : "This section showcases OMI Celebration: We Are One AbbVie, capturing joyful moments, team spirit, and vibrant event highlights.",
     Events_South : "This section features the South China Morning Post Luncheon, capturing professional interactions, keynote moments, and the event’s refined setting.",
+    Events_Audit : "This section features the Institute of Internal Auditors Singapore event, capturing key sessions, networking moments, and the professional atmosphere.",
 
 }
 

@@ -84,7 +84,14 @@ export default function events() {
           />
         </div>
 
-        <div className="flex-1"></div>
+        <div className="flex-1 ">
+          <CategoryCard
+            imagePath="/Events/Institute_of_Internal_Auditors_Singapore/Institute-of-Internal-Auditors-Conference-038.jpg"
+            title="Institute of Internal Auditors Singapore"
+            description={Message.Events_Audit}
+            link="events/institute-of-internal-auditors-singapore"
+          />
+        </div>
       </div>
     </div>
   );
