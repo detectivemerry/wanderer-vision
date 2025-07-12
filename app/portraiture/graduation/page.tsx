@@ -2,6 +2,21 @@ import PageHeader from "@/components/PageHeader";
 import Message from "@/app/_lib/texts";
 import Image from "next/image";
 
+import image1 from "@/public/Corporate_Portraiture_Photo/Graduation/graduation-001.jpg"
+import image2 from "@/public/Corporate_Portraiture_Photo/Graduation/graduation-002.jpg"
+import image3 from "@/public/Corporate_Portraiture_Photo/Graduation/graduation-003.jpg"
+import image4 from "@/public/Corporate_Portraiture_Photo/Graduation/graduation-004.jpg"
+import image5 from "@/public/Corporate_Portraiture_Photo/Graduation/graduation-005.jpg"
+import image6 from "@/public/Corporate_Portraiture_Photo/Graduation/graduation-006.jpg"
+import image7 from "@/public/Corporate_Portraiture_Photo/Graduation/graduation-007.jpg"
+import image9 from "@/public/Corporate_Portraiture_Photo/Graduation/graduation-008.jpg"
+import image10 from "@/public/Corporate_Portraiture_Photo/Graduation/graduation-009.jpg"
+import image11 from "@/public/Corporate_Portraiture_Photo/Graduation/graduation-010.jpg"
+import image12 from "@/public/Corporate_Portraiture_Photo/Graduation/graduation-011.jpg"
+import image13 from "@/public/Corporate_Portraiture_Photo/Graduation/graduation-012.jpg"
+import image14 from "@/public/Corporate_Portraiture_Photo/Graduation/graduation-013.jpg"
+import image15 from "@/public/Corporate_Portraiture_Photo/Graduation/graduation-014.jpg"
+
 export default function graudation() {
   return (
     <div className="flex flex-col">
@@ -14,114 +29,128 @@ export default function graudation() {
       <div className="flex flex-wrap gap-10 justify-center items-center">
         <div>
           <Image
-            src = "/Corporate_Portraiture_Photo/Graduation/graduation-001.jpg"
+          src = {image1}
             width = {500}
             height = {500}
-            alt = "Picture of Graduation 001"
+            alt = "Picture of Delta 001"
+            placeholder="blur"
           />
         </div>
         <div>
           <Image
-            src = "/Corporate_Portraiture_Photo/Graduation/graduation-002.jpg"
+          src = {image2}
             width = {500}
             height = {500}
-            alt = "Picture of Graduation 002"
+            alt = "Picture of Delta 001"
+            placeholder="blur"
           />
         </div>
         <div>
           <Image
-            src = "/Corporate_Portraiture_Photo/Graduation/graduation-008.jpg"
+          src = {image3}
             width = {500}
             height = {500}
-            alt = "Picture of Graduation 003"
+            alt = "Picture of Delta 001"
+            placeholder="blur"
           />
         </div>
         <div>
           <Image
-            src = "/Corporate_Portraiture_Photo/Graduation/graduation-004.jpg"
+          src = {image4}
             width = {500}
             height = {500}
-            alt = "Picture of Graduation 004"
+            alt = "Picture of Delta 001"
+            placeholder="blur"
           />
         </div>
         <div>
           <Image
-            src = "/Corporate_Portraiture_Photo/Graduation/graduation-005.jpg"
+          src = {image5}
             width = {500}
             height = {500}
-            alt = "Picture of Graduation 005"
+            alt = "Picture of Delta 001"
+            placeholder="blur"
           />
         </div>
         <div>
           <Image
-            src = "/Corporate_Portraiture_Photo/Graduation/graduation-006.jpg"
+          src = {image6}
             width = {500}
             height = {500}
-            alt = "Picture of Graduation 006"
+            alt = "Picture of Delta 001"
+            placeholder="blur"
           />
         </div>
         <div>
           <Image
-            src = "/Corporate_Portraiture_Photo/Graduation/graduation-007.jpg"
+          src = {image7}
             width = {500}
             height = {500}
-            alt = "Picture of Graduation 007"
+            alt = "Picture of Delta 001"
+            placeholder="blur"
           />
         </div>
         <div>
           <Image
-            src = "/Corporate_Portraiture_Photo/Graduation/graduation-003.jpg"
+          src = {image9}
             width = {500}
             height = {500}
-            alt = "Picture of Graduation 008"
+            alt = "Picture of Delta 001"
+            placeholder="blur"
           />
         </div>
         <div>
           <Image
-            src = "/Corporate_Portraiture_Photo/Graduation/graduation-009.jpg"
+          src = {image10}
             width = {500}
             height = {500}
-            alt = "Picture of Graduation 009"
+            alt = "Picture of Delta 001"
+            placeholder="blur"
           />
         </div>
         <div>
           <Image
-            src = "/Corporate_Portraiture_Photo/Graduation/graduation-010.jpg"
+          src = {image11}
             width = {500}
             height = {500}
-            alt = "Picture of Graduation 010"
+            alt = "Picture of Delta 001"
+            placeholder="blur"
           />
         </div>
         <div>
           <Image
-            src = "/Corporate_Portraiture_Photo/Graduation/graduation-013.jpg"
+          src = {image12}
             width = {500}
             height = {500}
-            alt = "Picture of Graduation 011"
+            alt = "Picture of Delta 001"
+            placeholder="blur"
           />
         </div>
         <div>
           <Image
-            src = "/Corporate_Portraiture_Photo/Graduation/graduation-012.jpg"
+          src = {image13}
             width = {500}
             height = {500}
-            alt = "Picture of Graduation 012"
+            alt = "Picture of Delta 001"
+            placeholder="blur"
           />
         </div>
         <div>
           <Image
-            src = "/Corporate_Portraiture_Photo/Graduation/graduation-011.jpg"
+          src = {image14}
             width = {500}
             height = {500}
-            alt = "Picture of Graduation 013"
+            alt = "Picture of Delta 001"
+            placeholder="blur"
           />
         </div>
         <div>
           <Image
-            src = "/Corporate_Portraiture_Photo/Graduation/graduation-014.jpg"
+          src = {image15}
             width = {500}
             height = {500}
-            alt = "Picture of Graduation 014"
+            alt = "Picture of Delta 001"
+            placeholder="blur"
           />
         </div>
       </div>

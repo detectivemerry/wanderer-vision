@@ -3,6 +3,14 @@ import PageHeader from "@/components/PageHeader";
 import Message from "@/app/_lib/texts";
 import Image from "next/image";
 
+import image1 from "@/public/Corporate_Portraiture_Photo/Corporate_Portraits/Koh-Chin-Chin-003.jpg"
+import image2 from "@/public/Corporate_Portraiture_Photo/Corporate_Portraits/Wong-Wei-Ling-001.jpg"
+import image3 from "@/public/Corporate_Portraiture_Photo/Corporate_Portraits/Wong-Wei-Ling-002.jpg"
+import image4 from "@/public/Corporate_Portraiture_Photo/Corporate_Portraits/Wong-Wei-Ling-003.jpg"
+import image5 from "@/public/Corporate_Portraiture_Photo/Corporate_Portraits/Yeoh-Lian-Chuan-001.jpg"
+import image6 from "@/public/Corporate_Portraiture_Photo/Corporate_Portraits/Yeoh-Lian-Chuan-002.jpg"
+import image7 from "@/public/Corporate_Portraiture_Photo/Corporate_Portraits/Yeoh-Lian-Chuan-003.jpg"
+
 export default function corporate() {
   return (
     <div className="flex flex-col">
@@ -14,26 +22,65 @@ export default function corporate() {
       <div className="flex flex-wrap gap-10 justify-center items-center">
         <div>
           <Image
-            src = "/portraiture/corporate"
+          src = {image1}
             width = {500}
             height = {500}
-            alt = "Picture of Storhub Exterior New 001"
+            alt = "Picture of Delta 001"
+            placeholder="blur"
           />
         </div>
         <div>
           <Image
-            src = "/Architecture/Storhub_Exterior_New/Storhub-Exterior-003.jpg"
+          src = {image2}
             width = {500}
             height = {500}
-            alt = "Picture of Storhub Exterior New 002"
+            alt = "Picture of Delta 001"
+            placeholder="blur"
           />
         </div>
         <div>
           <Image
-            src = "/Architecture/Storhub_Exterior_New/Storhub-Exterior-006.jpg"
+          src = {image3}
             width = {500}
             height = {500}
-            alt = "Picture of Storhub Exterior New 003"
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image4}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image5}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image6}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image7}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
           />
         </div>
       </div>
