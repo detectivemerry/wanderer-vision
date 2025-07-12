@@ -63,8 +63,8 @@ export default function delta() {
   return (
     <div className="flex flex-col">
       <PageHeader
-        title="5E Project Development of Add-on Children’s Picture"
-        description={Message.Events_5E}
+        title="AIA 48th Annual Legacy Awards"
+        description={Message.Events_AIA}
         goBackLink="/events"
       />
       <div className="flex flex-wrap gap-10 justify-center items-center">

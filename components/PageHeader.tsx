@@ -16,11 +16,14 @@ export default function PageHeader({
   return (
     <div className="flex flex-col mt-4 lg:mb-20 mb-4 mb-8 gap-4">
       <Link href={goBackLink}>
-        <div className="flex w-auto hover:bg-gray-100 w-[5.5rem]">
-          <div className = "">
+        <div className="flex justify-between">
+          <div className = "flex-0.2 hover:bg-gray-100 flex pr-2 pb-1">
+          <div className="">
             <ChevronLeft sx={{ fontSize: "1.25rem" }} />
           </div>
-          <div className = "text-sm pt-1">Go back</div>
+          <div className="text-sm pt-1">Go back</div>
+          </div>
+          <div className = "flex-1.8"></div>
         </div>
       </Link>
       <div className="text-3xl">{title}</div>

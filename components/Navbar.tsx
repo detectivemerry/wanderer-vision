@@ -31,7 +31,10 @@ export default function Navbar() {
       <div className="flex items-center gap-8 lg:mr-16 mr-2">
         <div
           className={`${
-            pathName == "/graduation" && "font-bold"
+            (pathName.includes("/architecture") ||
+              pathName.includes("/events") ||
+              pathName.includes("/portraiture")) &&
+            "font-bold"
           } cursor-pointer flex`}
           onClick={handleClick}
         >
@@ -46,14 +49,14 @@ export default function Navbar() {
             autoFocus={false}
             slotProps={{ paper: { sx: { width: "11rem" } } }}
           >
+            <Link href="/architecture">
+              <MenuItem>Architecture</MenuItem>
+            </Link>
+            <Link href="/portraiture">
+              <MenuItem>Portraiture</MenuItem>
+            </Link>
             <Link href="/events">
               <MenuItem>Events</MenuItem>
-            </Link>
-            <Link href="/interior-and-exterior">
-              <MenuItem>Interior and Exterior</MenuItem>
-            </Link>
-            <Link href="portraits">
-              <MenuItem>Portraits</MenuItem>
             </Link>
           </Menu>
         </div>

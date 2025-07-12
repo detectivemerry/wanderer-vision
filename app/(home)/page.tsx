@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="flex flex-col">
       <div className="text-3xl lg:mt-4 lg:mb-20">Portfolio</div>
-      <div className="flex lg:gap-20 gap-5 flex-wrap items-stretch mb-6">
+      <div className="flex flex-col lg:flex-row lg:gap-20 gap-5 flex-wrap items-stretch mb-6">
         <div className = "flex-1">
           <CategoryCard
             imagePath="Architecture/Keong_Saik_Bakery/Keong-Saik-Bakery-002.jpg"          
