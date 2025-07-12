@@ -1,6 +1,9 @@
 import PageHeader from "@/components/PageHeader";
 import Message from "@/app/_lib/texts";
 import Image from "next/image";
+import image1 from "@/public/Architecture/Delta/Delta-001.jpg"
+import image2 from "@/public/Architecture/Delta/Delta-002.jpg"
+import image3 from "@/public/Architecture/Delta/Delta-004.jpg"
 
 export default function delta() {
   return (
@@ -14,26 +17,29 @@ export default function delta() {
       <div className="flex flex-wrap gap-10 justify-center items-center">
         <div>
           <Image
-            src = "/Architecture/Delta/Delta-001.jpg"
+            src = {image1}
             width = {500}
             height = {500}
             alt = "Picture of Delta 001"
+            placeholder="blur"
           />
         </div>
         <div>
           <Image
-            src = "/Architecture/Delta/Delta-002.jpg"
+            src = {image2}
             width = {500}
             height = {500}
             alt = "Picture of Delta 002"
+            placeholder="blur"
           />
         </div>
         <div>
           <Image
-            src = "/Architecture/Delta/Delta-004.jpg"
+            src = {image3}
             width = {500}
             height = {500}
             alt = "Picture of Delta 003"
+            placeholder="blur"
           />
         </div>
       </div>

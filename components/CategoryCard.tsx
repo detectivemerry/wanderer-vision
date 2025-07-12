@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 
 interface CategoryCardProps {
-    imagePath : string,
+    imagePath : string | any,
     title : string,
     description : string
     link : string

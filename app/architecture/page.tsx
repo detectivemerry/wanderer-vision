@@ -2,6 +2,11 @@ import React from "react";
 import CategoryCard from "@/components/CategoryCard";
 import PageHeader from "@/components/PageHeader";
 import Message from "../_lib/texts";
+// import image1 from "@/public/Architecture/Delta/Delta-001.jpg"
+// import image2 from "@/public/Architecture/Grada_Office/Grada Office-001.jpg"
+// import image3 from "@/public/Architecture/Keong_Saik_Bakery/Keong-Saik-Bakery-001.jpg"
+// import image4 from "@/public/Architecture/Storhub_Exterior_New/Storhub-Exterior-001.jpg"
+// import image5 from "@/public/Architecture/Yew_Tee_Point/Yew-Tee-Point-Day-2-V2-001.jpg"
 
 export default function architecture() {
   return (

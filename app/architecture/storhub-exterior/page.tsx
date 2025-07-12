@@ -1,6 +1,9 @@
 import PageHeader from "@/components/PageHeader";
 import Message from "@/app/_lib/texts";
 import Image from "next/image";
+import image1 from "@/public/Architecture/Storhub_Exterior_New/Storhub-Exterior-001.jpg"
+import image2 from "@/public/Architecture/Storhub_Exterior_New/Storhub-Exterior-003.jpg"
+import image3 from "@/public/Architecture/Storhub_Exterior_New/Storhub-Exterior-006.jpg"
 
 export default function storhubExterior() {
   return (
@@ -14,26 +17,29 @@ export default function storhubExterior() {
       <div className="flex flex-wrap gap-10 justify-center items-center">
         <div>
           <Image
-            src = "/Architecture/Storhub_Exterior_New/Storhub-Exterior-001.jpg"
+          src = {image1}
             width = {500}
             height = {500}
             alt = "Picture of Storhub Exterior New 001"
+            placeholder="blur"
           />
         </div>
         <div>
           <Image
-            src = "/Architecture/Storhub_Exterior_New/Storhub-Exterior-003.jpg"
+          src = {image2}
             width = {500}
             height = {500}
             alt = "Picture of Storhub Exterior New 002"
+            placeholder="blur"
           />
         </div>
         <div>
           <Image
-            src = "/Architecture/Storhub_Exterior_New/Storhub-Exterior-006.jpg"
+          src = {image3}
             width = {500}
             height = {500}
             alt = "Picture of Storhub Exterior New 003"
+            placeholder="blur"
           />
         </div>
       </div>
