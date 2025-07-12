@@ -33,8 +33,8 @@ export default function huationg() {
   return (
     <div className="flex flex-col">
       <PageHeader
-        title="5E Project Development of Add-on Children’s Picture"
-        description={Message.Events_5E}
+        title="Huationg Contractor D&D"
+        description={Message.Events_Huationg}
         goBackLink="/events"
       />
       <div className="flex flex-wrap gap-10 justify-center items-center">

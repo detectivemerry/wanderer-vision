@@ -46,17 +46,351 @@ export default function delta() {
   return (
     <div className="flex flex-col">
       <PageHeader
-        title="5E Project Development of Add-on Children’s Picture"
-        description={Message.Events_5E}
+        title="Invade X Artbox Day 3"
+        description={Message.Events_Invade}
         goBackLink="/events"
       />
       <div className="flex flex-wrap gap-10 justify-center items-center">
         <div>
           <Image
-            src = "/Events/5E Project Development_of_Add-on_Children’s_Picture/SCCL-5E-Book-Launch-001.jpg"
+          src = {image1}
             width = {500}
             height = {500}
             alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image2}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image3}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image5}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image4}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image14}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image7}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image9}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image10}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image11}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image12}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image13}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image6}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image15}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image16}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image17}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image18}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image19}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image20}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image21}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image22}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image23}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image24}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image25}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image26}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image27}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image28}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image29}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image30}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image31}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image32}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image33}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image34}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image35}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image36}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image37}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image38}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
+          />
+        </div>
+        <div>
+          <Image
+          src = {image8}
+            width = {500}
+            height = {500}
+            alt = "Picture of Delta 001"
+            placeholder="blur"
           />
         </div>
       </div>
