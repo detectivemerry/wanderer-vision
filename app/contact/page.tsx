@@ -14,7 +14,7 @@ export default function contact() {
         <div className="flex justify-center m-28">
           <div className="flex gap-2">
             <Mail />
-            <span className="font-bold">clinton.lee.photography@gmail.com</span>
+            <span className="font-bold">clinton.the.wanderer@gmail.com</span>
           </div>
         </div>
       </div>
